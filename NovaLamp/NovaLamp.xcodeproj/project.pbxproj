@@ -1,0 +1,891 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D057E8EE209689460000C9D4 /* audio in Resources */ = {isa = PBXBuildFile; fileRef = D057E8ED209689460000C9D4 /* audio */; };
+		D0BA0FC52096707D003E6B82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA0FC42096707D003E6B82 /* AppDelegate.swift */; };
+		D0BA0FC72096707D003E6B82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA0FC62096707D003E6B82 /* ViewController.swift */; };
+		D0BA0FCA2096707D003E6B82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0BA0FC82096707D003E6B82 /* Main.storyboard */; };
+		D0BA0FCC2096707E003E6B82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0BA0FCB2096707E003E6B82 /* Assets.xcassets */; };
+		D0BA0FCF2096707E003E6B82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0BA0FCD2096707E003E6B82 /* LaunchScreen.storyboard */; };
+		D0BA0FDA2096707E003E6B82 /* NovaLampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA0FD92096707E003E6B82 /* NovaLampTests.swift */; };
+		D0BA0FE52096707E003E6B82 /* NovaLampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA0FE42096707E003E6B82 /* NovaLampUITests.swift */; };
+		D0BA0FF8209670C8003E6B82 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0BA0FF6209670C8003E6B82 /* Interface.storyboard */; };
+		D0BA0FFA209670C8003E6B82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0BA0FF9209670C8003E6B82 /* Assets.xcassets */; };
+		D0BA1001209670C8003E6B82 /* NovaLampRemote Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D0BA1000209670C8003E6B82 /* NovaLampRemote Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D0BA1006209670C8003E6B82 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA1005209670C8003E6B82 /* InterfaceController.swift */; };
+		D0BA1008209670C8003E6B82 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA1007209670C8003E6B82 /* ExtensionDelegate.swift */; };
+		D0BA100A209670C8003E6B82 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA1009209670C8003E6B82 /* NotificationController.swift */; };
+		D0BA100C209670C8003E6B82 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA100B209670C8003E6B82 /* ComplicationController.swift */; };
+		D0BA100E209670C9003E6B82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0BA100D209670C9003E6B82 /* Assets.xcassets */; };
+		D0BA1013209670C9003E6B82 /* NovaLampRemote.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D0BA0FF4209670C7003E6B82 /* NovaLampRemote.app */; };
+		D0BCC0BD2096755B00C290FA /* LampControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BCC0BC2096755B00C290FA /* LampControl.swift */; };
+		D0BCC0BE2096761F00C290FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA0FC62096707D003E6B82 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0BA0FD62096707E003E6B82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0BA0FB92096707D003E6B82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0BA0FC02096707D003E6B82;
+			remoteInfo = NovaLamp;
+		};
+		D0BA0FE12096707E003E6B82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0BA0FB92096707D003E6B82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0BA0FC02096707D003E6B82;
+			remoteInfo = NovaLamp;
+		};
+		D0BA1002209670C8003E6B82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0BA0FB92096707D003E6B82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0BA0FFF209670C8003E6B82;
+			remoteInfo = "NovaLampRemote Extension";
+		};
+		D0BA1011209670C9003E6B82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0BA0FB92096707D003E6B82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0BA0FF3209670C7003E6B82;
+			remoteInfo = NovaLampRemote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D0BA1017209670C9003E6B82 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D0BA1001209670C8003E6B82 /* NovaLampRemote Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BA101B209670C9003E6B82 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D0BA1013209670C9003E6B82 /* NovaLampRemote.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D057E8ED209689460000C9D4 /* audio */ = {isa = PBXFileReference; lastKnownFileType = folder; name = audio; path = NovaLamp/audio; sourceTree = "<group>"; };
+		D0BA0FC12096707D003E6B82 /* NovaLamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NovaLamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BA0FC42096707D003E6B82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0BA0FC62096707D003E6B82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0BA0FC92096707D003E6B82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0BA0FCB2096707E003E6B82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0BA0FCE2096707E003E6B82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0BA0FD02096707E003E6B82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0BA0FD52096707E003E6B82 /* NovaLampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NovaLampTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BA0FD92096707E003E6B82 /* NovaLampTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovaLampTests.swift; sourceTree = "<group>"; };
+		D0BA0FDB2096707E003E6B82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0BA0FE02096707E003E6B82 /* NovaLampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NovaLampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BA0FE42096707E003E6B82 /* NovaLampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovaLampUITests.swift; sourceTree = "<group>"; };
+		D0BA0FE62096707E003E6B82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0BA0FF4209670C7003E6B82 /* NovaLampRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NovaLampRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BA0FF7209670C8003E6B82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		D0BA0FF9209670C8003E6B82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0BA0FFB209670C8003E6B82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0BA1000209670C8003E6B82 /* NovaLampRemote Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "NovaLampRemote Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BA1005209670C8003E6B82 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		D0BA1007209670C8003E6B82 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		D0BA1009209670C8003E6B82 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		D0BA100B209670C8003E6B82 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		D0BA100D209670C9003E6B82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0BA100F209670C9003E6B82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0BA1010209670C9003E6B82 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		D0BCC0BC2096755B00C290FA /* LampControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LampControl.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0BA0FBE2096707D003E6B82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BA0FD22096707E003E6B82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BA0FDD2096707E003E6B82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BA0FFD209670C8003E6B82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0BA0FB82096707D003E6B82 = {
+			isa = PBXGroup;
+			children = (
+				D057E8ED209689460000C9D4 /* audio */,
+				D0BA0FC32096707D003E6B82 /* NovaLamp */,
+				D0BA0FD82096707E003E6B82 /* NovaLampTests */,
+				D0BA0FE32096707E003E6B82 /* NovaLampUITests */,
+				D0BA0FF5209670C8003E6B82 /* NovaLampRemote */,
+				D0BA1004209670C8003E6B82 /* NovaLampRemote Extension */,
+				D0BA0FC22096707D003E6B82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0BA0FC22096707D003E6B82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0BA0FC12096707D003E6B82 /* NovaLamp.app */,
+				D0BA0FD52096707E003E6B82 /* NovaLampTests.xctest */,
+				D0BA0FE02096707E003E6B82 /* NovaLampUITests.xctest */,
+				D0BA0FF4209670C7003E6B82 /* NovaLampRemote.app */,
+				D0BA1000209670C8003E6B82 /* NovaLampRemote Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0BA0FC32096707D003E6B82 /* NovaLamp */ = {
+			isa = PBXGroup;
+			children = (
+				D0BA0FC42096707D003E6B82 /* AppDelegate.swift */,
+				D0BA0FC62096707D003E6B82 /* ViewController.swift */,
+				D0BA0FC82096707D003E6B82 /* Main.storyboard */,
+				D0BA0FCB2096707E003E6B82 /* Assets.xcassets */,
+				D0BA0FCD2096707E003E6B82 /* LaunchScreen.storyboard */,
+				D0BA0FD02096707E003E6B82 /* Info.plist */,
+				D0BCC0BC2096755B00C290FA /* LampControl.swift */,
+			);
+			path = NovaLamp;
+			sourceTree = "<group>";
+		};
+		D0BA0FD82096707E003E6B82 /* NovaLampTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0BA0FD92096707E003E6B82 /* NovaLampTests.swift */,
+				D0BA0FDB2096707E003E6B82 /* Info.plist */,
+			);
+			path = NovaLampTests;
+			sourceTree = "<group>";
+		};
+		D0BA0FE32096707E003E6B82 /* NovaLampUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0BA0FE42096707E003E6B82 /* NovaLampUITests.swift */,
+				D0BA0FE62096707E003E6B82 /* Info.plist */,
+			);
+			path = NovaLampUITests;
+			sourceTree = "<group>";
+		};
+		D0BA0FF5209670C8003E6B82 /* NovaLampRemote */ = {
+			isa = PBXGroup;
+			children = (
+				D0BA0FF6209670C8003E6B82 /* Interface.storyboard */,
+				D0BA0FF9209670C8003E6B82 /* Assets.xcassets */,
+				D0BA0FFB209670C8003E6B82 /* Info.plist */,
+			);
+			path = NovaLampRemote;
+			sourceTree = "<group>";
+		};
+		D0BA1004209670C8003E6B82 /* NovaLampRemote Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D0BA1005209670C8003E6B82 /* InterfaceController.swift */,
+				D0BA1007209670C8003E6B82 /* ExtensionDelegate.swift */,
+				D0BA1009209670C8003E6B82 /* NotificationController.swift */,
+				D0BA100B209670C8003E6B82 /* ComplicationController.swift */,
+				D0BA100D209670C9003E6B82 /* Assets.xcassets */,
+				D0BA100F209670C9003E6B82 /* Info.plist */,
+				D0BA1010209670C9003E6B82 /* PushNotificationPayload.apns */,
+			);
+			path = "NovaLampRemote Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0BA0FC02096707D003E6B82 /* NovaLamp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0BA0FE92096707E003E6B82 /* Build configuration list for PBXNativeTarget "NovaLamp" */;
+			buildPhases = (
+				D0BA0FBD2096707D003E6B82 /* Sources */,
+				D0BA0FBE2096707D003E6B82 /* Frameworks */,
+				D0BA0FBF2096707D003E6B82 /* Resources */,
+				D0BA101B209670C9003E6B82 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0BA1012209670C9003E6B82 /* PBXTargetDependency */,
+			);
+			name = NovaLamp;
+			productName = NovaLamp;
+			productReference = D0BA0FC12096707D003E6B82 /* NovaLamp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0BA0FD42096707E003E6B82 /* NovaLampTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0BA0FEC2096707E003E6B82 /* Build configuration list for PBXNativeTarget "NovaLampTests" */;
+			buildPhases = (
+				D0BA0FD12096707E003E6B82 /* Sources */,
+				D0BA0FD22096707E003E6B82 /* Frameworks */,
+				D0BA0FD32096707E003E6B82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0BA0FD72096707E003E6B82 /* PBXTargetDependency */,
+			);
+			name = NovaLampTests;
+			productName = NovaLampTests;
+			productReference = D0BA0FD52096707E003E6B82 /* NovaLampTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0BA0FDF2096707E003E6B82 /* NovaLampUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0BA0FEF2096707E003E6B82 /* Build configuration list for PBXNativeTarget "NovaLampUITests" */;
+			buildPhases = (
+				D0BA0FDC2096707E003E6B82 /* Sources */,
+				D0BA0FDD2096707E003E6B82 /* Frameworks */,
+				D0BA0FDE2096707E003E6B82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0BA0FE22096707E003E6B82 /* PBXTargetDependency */,
+			);
+			name = NovaLampUITests;
+			productName = NovaLampUITests;
+			productReference = D0BA0FE02096707E003E6B82 /* NovaLampUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D0BA0FF3209670C7003E6B82 /* NovaLampRemote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0BA1018209670C9003E6B82 /* Build configuration list for PBXNativeTarget "NovaLampRemote" */;
+			buildPhases = (
+				D0BA0FF2209670C7003E6B82 /* Resources */,
+				D0BA1017209670C9003E6B82 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0BA1003209670C8003E6B82 /* PBXTargetDependency */,
+			);
+			name = NovaLampRemote;
+			productName = NovaLampRemote;
+			productReference = D0BA0FF4209670C7003E6B82 /* NovaLampRemote.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		D0BA0FFF209670C8003E6B82 /* NovaLampRemote Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0BA1014209670C9003E6B82 /* Build configuration list for PBXNativeTarget "NovaLampRemote Extension" */;
+			buildPhases = (
+				D0BA0FFC209670C8003E6B82 /* Sources */,
+				D0BA0FFD209670C8003E6B82 /* Frameworks */,
+				D0BA0FFE209670C8003E6B82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NovaLampRemote Extension";
+			productName = "NovaLampRemote Extension";
+			productReference = D0BA1000209670C8003E6B82 /* NovaLampRemote Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0BA0FB92096707D003E6B82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Peter K";
+				TargetAttributes = {
+					D0BA0FC02096707D003E6B82 = {
+						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					D0BA0FD42096707E003E6B82 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = D0BA0FC02096707D003E6B82;
+					};
+					D0BA0FDF2096707E003E6B82 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = D0BA0FC02096707D003E6B82;
+					};
+					D0BA0FF3209670C7003E6B82 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					D0BA0FFF209670C8003E6B82 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = D0BA0FBC2096707D003E6B82 /* Build configuration list for PBXProject "NovaLamp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0BA0FB82096707D003E6B82;
+			productRefGroup = D0BA0FC22096707D003E6B82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0BA0FC02096707D003E6B82 /* NovaLamp */,
+				D0BA0FD42096707E003E6B82 /* NovaLampTests */,
+				D0BA0FDF2096707E003E6B82 /* NovaLampUITests */,
+				D0BA0FF3209670C7003E6B82 /* NovaLampRemote */,
+				D0BA0FFF209670C8003E6B82 /* NovaLampRemote Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0BA0FBF2096707D003E6B82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BA0FCF2096707E003E6B82 /* LaunchScreen.storyboard in Resources */,
+				D0BA0FCC2096707E003E6B82 /* Assets.xcassets in Resources */,
+				D0BA0FCA2096707D003E6B82 /* Main.storyboard in Resources */,
+				D057E8EE209689460000C9D4 /* audio in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BA0FD32096707E003E6B82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BA0FDE2096707E003E6B82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BA0FF2209670C7003E6B82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BA0FFA209670C8003E6B82 /* Assets.xcassets in Resources */,
+				D0BA0FF8209670C8003E6B82 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BA0FFE209670C8003E6B82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BA100E209670C9003E6B82 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0BA0FBD2096707D003E6B82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BA0FC72096707D003E6B82 /* ViewController.swift in Sources */,
+				D0BCC0BD2096755B00C290FA /* LampControl.swift in Sources */,
+				D0BA0FC52096707D003E6B82 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BA0FD12096707E003E6B82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BCC0BE2096761F00C290FA /* ViewController.swift in Sources */,
+				D0BA0FDA2096707E003E6B82 /* NovaLampTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BA0FDC2096707E003E6B82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BA0FE52096707E003E6B82 /* NovaLampUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BA0FFC209670C8003E6B82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BA100A209670C8003E6B82 /* NotificationController.swift in Sources */,
+				D0BA100C209670C8003E6B82 /* ComplicationController.swift in Sources */,
+				D0BA1008209670C8003E6B82 /* ExtensionDelegate.swift in Sources */,
+				D0BA1006209670C8003E6B82 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0BA0FD72096707E003E6B82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0BA0FC02096707D003E6B82 /* NovaLamp */;
+			targetProxy = D0BA0FD62096707E003E6B82 /* PBXContainerItemProxy */;
+		};
+		D0BA0FE22096707E003E6B82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0BA0FC02096707D003E6B82 /* NovaLamp */;
+			targetProxy = D0BA0FE12096707E003E6B82 /* PBXContainerItemProxy */;
+		};
+		D0BA1003209670C8003E6B82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0BA0FFF209670C8003E6B82 /* NovaLampRemote Extension */;
+			targetProxy = D0BA1002209670C8003E6B82 /* PBXContainerItemProxy */;
+		};
+		D0BA1012209670C9003E6B82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0BA0FF3209670C7003E6B82 /* NovaLampRemote */;
+			targetProxy = D0BA1011209670C9003E6B82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0BA0FC82096707D003E6B82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0BA0FC92096707D003E6B82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0BA0FCD2096707E003E6B82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0BA0FCE2096707E003E6B82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D0BA0FF6209670C8003E6B82 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0BA0FF7209670C8003E6B82 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0BA0FE72096707E003E6B82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0BA0FE82096707E003E6B82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0BA0FEA2096707E003E6B82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64P2P43NDF;
+				INFOPLIST_FILE = NovaLamp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.unrelatedlabs.iphone2.NovaLamp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0BA0FEB2096707E003E6B82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64P2P43NDF;
+				INFOPLIST_FILE = NovaLamp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.unrelatedlabs.iphone2.NovaLamp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D0BA0FED2096707E003E6B82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35RGGXW9NU;
+				INFOPLIST_FILE = NovaLampTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.unrelatedlabs.iphone.NovaLampTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NovaLamp.app/NovaLamp";
+			};
+			name = Debug;
+		};
+		D0BA0FEE2096707E003E6B82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35RGGXW9NU;
+				INFOPLIST_FILE = NovaLampTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.unrelatedlabs.iphone.NovaLampTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NovaLamp.app/NovaLamp";
+			};
+			name = Release;
+		};
+		D0BA0FF02096707E003E6B82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35RGGXW9NU;
+				INFOPLIST_FILE = NovaLampUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.unrelatedlabs.iphone.NovaLampUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NovaLamp;
+			};
+			name = Debug;
+		};
+		D0BA0FF12096707E003E6B82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35RGGXW9NU;
+				INFOPLIST_FILE = NovaLampUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.unrelatedlabs.iphone.NovaLampUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NovaLamp;
+			};
+			name = Release;
+		};
+		D0BA1015209670C9003E6B82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64P2P43NDF;
+				INFOPLIST_FILE = "NovaLampRemote Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.unrelatedlabs.iphone2.NovaLamp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Debug;
+		};
+		D0BA1016209670C9003E6B82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64P2P43NDF;
+				INFOPLIST_FILE = "NovaLampRemote Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.unrelatedlabs.iphone2.NovaLamp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Release;
+		};
+		D0BA1019209670C9003E6B82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64P2P43NDF;
+				IBSC_MODULE = NovaLampRemote_Extension;
+				INFOPLIST_FILE = NovaLampRemote/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unrelatedlabs.iphone2.NovaLamp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Debug;
+		};
+		D0BA101A209670C9003E6B82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64P2P43NDF;
+				IBSC_MODULE = NovaLampRemote_Extension;
+				INFOPLIST_FILE = NovaLampRemote/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unrelatedlabs.iphone2.NovaLamp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0BA0FBC2096707D003E6B82 /* Build configuration list for PBXProject "NovaLamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BA0FE72096707E003E6B82 /* Debug */,
+				D0BA0FE82096707E003E6B82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0BA0FE92096707E003E6B82 /* Build configuration list for PBXNativeTarget "NovaLamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BA0FEA2096707E003E6B82 /* Debug */,
+				D0BA0FEB2096707E003E6B82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0BA0FEC2096707E003E6B82 /* Build configuration list for PBXNativeTarget "NovaLampTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BA0FED2096707E003E6B82 /* Debug */,
+				D0BA0FEE2096707E003E6B82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0BA0FEF2096707E003E6B82 /* Build configuration list for PBXNativeTarget "NovaLampUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BA0FF02096707E003E6B82 /* Debug */,
+				D0BA0FF12096707E003E6B82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0BA1014209670C9003E6B82 /* Build configuration list for PBXNativeTarget "NovaLampRemote Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BA1015209670C9003E6B82 /* Debug */,
+				D0BA1016209670C9003E6B82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0BA1018209670C9003E6B82 /* Build configuration list for PBXNativeTarget "NovaLampRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BA1019209670C9003E6B82 /* Debug */,
+				D0BA101A209670C9003E6B82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0BA0FB92096707D003E6B82 /* Project object */;
+}
